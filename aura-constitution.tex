@@ -1,0 +1,232 @@
+\documentclass[a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+
+\usepackage{acronym}
+
+\usepackage{etoolbox}
+
+\setitemize{noitemsep}
+\setenumerate{noitemsep}
+\setenumerate[1]{label=\alph*., ref={\thesection\alph*}}
+\setenumerate[2]{label=\roman*., ref={\thesection\alph{enumi}.\roman*}}
+\setenumerate[3]{label=\roman*., ref={\thesection\alph{enumi}.\roman{enumii}.\roman*}}
+
+\renewcommand{\thesection}{\arabic{section}.}
+
+\preto{\section}{\filbreak}
+
+\acrodef{AGM}{Annual General Meeting}
+\acrodef{SGM}{Special General Meeting}
+
+\begin{document}
+	\textbf{
+		\underline{\smash{Auckland University Robotics Association}}
+	}
+
+	\vspace{0.1in}
+	
+	{
+		\LARGE
+		\centerline{\textbf{Constitution}}
+	}
+
+	\vspace{0.1in}
+	
+	\textbf{This Constitution was voted into effect January 5, 2011.}
+	
+	\textbf{The Constitution was last amended January 24, 2018.}
+	
+	\section*{Aims Of The Club}
+	
+	\begin{itemize}
+		\item Provide a mechanism for competitive robotics at the University of Auckland.
+		\item Encourage students from all faculties to participate in robotics-related activities.
+		\item To act as a social organisation for like minded robotics enthusiasts.
+		\item Support high school robotics teams through mentoring programs and hosting competitions.
+		\item Develop a foundation for research in robotics related fields at an undergraduate level.
+	\end{itemize}
+	
+	\section{Membership}
+	There are two categories of Members of the Club:
+	\begin{enumerate}
+		\item \label{full-members} Full Members:
+		\begin{enumerate}
+			\item Full Membership of the Club shall be open to all University of Auckland Students who pay the Club membership fee, and any non-student individuals at the discretion of the Club Executive.
+			
+			\item The per-semester membership fee that is payable by each Full Member shall be ratified at the Club's preceding \ac{AGM}.
+			
+			\item Any Member that joins in the month of December will have their membership fee waived for that year.
+		\end{enumerate}
+	
+		\item Associate Members:
+		\begin{enumerate}
+			\item Associate Membership of the Club is available to anyone, at the discretion of the Club Executive.
+			
+			\item Associate Members of the Club are not permitted access to equipment and facilities owned or operated by the University of Auckland, including but not limited to robotics parts and laboratory access, except for cases where permission has been granted by the Executive for particular purposes.
+			
+			\item Associate Members do not have voting rights at General Meetings.
+			
+			\item Associate memberships last in perpetuity, for no fee, unless ceased under \ref{cease-by-writing} or \ref{cease-by-expulsion}.
+			
+			\item At any time, an Associate Member can become a Full Member by paying the difference in membership fees as long as they are eligible under \ref{full-members}.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\section{Cessation Of Membership}
+	
+	\begin{enumerate}
+		\item All Full Memberships shall lapse on the first day of the next semester (either Semester One or Semester Two) which has not been paid for.
+		
+		\item \label{cease-by-writing} Any Member may cease his/her membership by writing to the Chairperson of the Club.
+		
+		\item All Members must give or be given two weeks notice prior to cessation of membership.
+		
+		\item \label{cease-by-expulsion} A Member may be expelled from the Club by the Executive of the Club if s/he contravenes the rules of the Club.
+		
+		\item Cessation of membership does not relieve a Member from liability incurred prior to him/her ceasing to be a Member.
+	\end{enumerate}
+
+	\section{Officers and Executive}
+	
+	\begin{enumerate}
+		\item The Officers of the Club shall consist of a Chairperson, a Treasurer, and other elected Office Holders; collectively to be known as the Executive of the Club.
+		
+		\item The Executive shall be comprised of no less than three and no more than six Office Holders.
+		
+		\item The Executive has full powers to deal with matters relating to the aims and objectives of the Club except where control is vested in a General Meeting as outlined in this Constitution.
+		
+		\item Executive Members may be designated areas of responsibility by the Executive as a whole.
+		
+		\item The Executive may appoint additional Executive Members as the need arises.
+		
+		\item The Executive may prepare rules on Club matters, and impose penalties for failure to comply with these rules.
+		
+		These rules and penalties shall be binding on Members of the Club.
+		\item All Members of the Executive must give two weeks notice prior to resignation of a position.
+	\end{enumerate}
+	
+	\section{Executive Meetings}
+	
+	\begin{enumerate}
+		\item The Executive shall meet as it deems necessary. Any two Members of the Executive may call a Meeting.
+		
+		\item In the absence of the Chairperson a Member of the Executive shall be appointed to Chair the Meeting.
+		
+		\item To reach quorum, an Executive Meeting must be attended by more than half the total number of Executive Members.
+		
+		\item Any business that is conducted at an inquorate Meeting shall be null and void.
+		
+		\item Reasonable notice of all Executive Meetings shall be given to all Members of the Executive and the Members who call the Meeting will make every reasonable attempt to contact others in the Executive to confirm the Meeting time and location.
+		
+		\item Executive Meetings are open to all Office Holders and others at the invitation of the Executive.
+		The Executive may grant any attendee who is not an Office Holder the right to speak but not to vote at an Executive Meeting.
+		
+		\item Minutes shall be kept as a true and accurate account of all Executive Meetings.
+		
+		\item To be passed, a motion must receive more votes than half the total number of Executive Members present at the Meeting.
+		
+		\item In the event of a tied vote, the Chairperson will exercise a casting vote in addition to his/her deliberative vote.
+	\end{enumerate}
+	
+	\section{Election of Office Holders and Executive Members}
+	
+	\begin{enumerate}
+		\item Elections shall occur at the \ac{AGM} of the Club, or at a \ac{SGM} called for that purpose.
+		If a casual vacancy occurs on the Executive, the Executive may appoint a Member of the Club to fill the vacancy until it is possible to hold an election at a General Meeting.
+		
+		\item The procedure for Elections at a General Meeting shall be as follows:
+		\begin{enumerate}
+			\item Every candidate shall be nominated and seconded prior to the Meeting. Nominations must be received by the Chairperson at least three days before the Meeting; these are to be signed by the candidate, the nominator and the seconder.
+			
+			\item No person may be nominated for a position against his/her will.
+			
+			\item Any person running for an Executive position has the right to address the General Meeting for up to two minutes on matters pertaining to their suitability for the position, immediately before voting for that position begins.
+			There may be no reference to the other nominees during this speech, specifically or generally.
+			Violation of this will result in the nominee's exclusion from running for the position.
+			
+			\item Scrutineers shall be appointed and a secret ballot held.
+			
+			\item The candidate receiving the most votes shall be declared elected to the position.
+			In the event of a tied vote a second ballot shall be held.
+			If the votes are still equal, the Chairperson shall exercise a casting vote in addition to her/his deliberative vote.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\section{General Meetings}
+	
+	\begin{enumerate}
+		\item At a General Meeting of the Club any Full Member has the power of voting, moving and seconding.
+		
+		\item Every Full Member of the Club shall have one vote on any motion at a General Meeting, but only if they are present when the vote is taken, with the exception of Executive elections where proxy votes will be accepted.
+		
+		\item Except for Election voting, voting at a General Meeting shall normally be made by a show of hands.
+		
+		\item At any General Meeting, if a motion requesting a secret ballot is passed by a two thirds majority, a secret ballot shall be held.
+		
+		\item The quorum for a General Meeting shall be one quarter or twenty of the Full Members of the Club, whichever is lower, and any business transacted while the Meeting is inquorate shall be null and void.
+		
+		\item \acf{AGM}
+		\begin{enumerate}
+			\item The \ac{AGM} shall be held anytime before the end of Semester Two in each year.
+			
+			\item The Chairperson shall endeavour to notify all Full Members of the \ac{AGM} at least 14 days before the Meeting.
+			
+			\item The \ac{AGM} shall receive an account of the previous year from the Treasurer along with his/her Annual Report.
+			
+			\item The Club shall elect its Office Holders and Executive Members at the \ac{AGM}. Election results come into effect on the last day of Semester Two exams.
+			
+			\item At an \ac{AGM} a motion may be put verbally and resolved by the Meeting, except for Executive nominations and where notice of motion is required by this Constitution (ie. for a Constitutional amendment or to dissolve the Club), which must be received at least three days before the Meeting.
+		\end{enumerate}
+	
+		\item \acf{SGM}
+		\begin{enumerate}
+			\item The Executive may call an \ac{SGM} at any time and for any purpose providing that 14 days notice of the Meeting is given to all current Club Full Members.
+			
+			\item The Executive shall call an \ac{SGM} within 21 days of receiving a written request for specific motion(s) signed by a quarter of the Full Members of the Club.
+		\end{enumerate}
+	
+		\item Amendments to this Constitution
+		\begin{enumerate}
+			\item This Constitution may only be amended at a General Meeting. Any part of this Constitution may be amended at any General Meeting.
+		\end{enumerate}
+	
+		\item Minutes shall be kept as a true and accurate account of all General Meetings.
+		\begin{enumerate}
+			\item Minutes shall be made publicly available within two (2) weeks of any General Meeting.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\section{Finances}
+	
+	\begin{enumerate}
+		\item The funds and resources of the Club shall be controlled by the Executive, subject to any controls placed upon them by a General Meeting.
+		
+		\item The Executive shall appoint at least two signatories, one of whom shall be the Treasurer.
+		Any one of these signatories may operate the bank accounts of the Club on the instructions of the Executive.
+		\begin{enumerate}
+			\item Signatories are aware that should the Club not be able to meet its debts in the first instance, they will be held personally liable (jointly and separately).
+		\end{enumerate}
+	
+		\item The Treasurer shall keep a true and accurate record of the funds and assets of the Club and shall prepare a financial report for presentation at the \ac{AGM}.
+		
+		\item The financial report for presentation at the \ac{AGM} shall cover the financial year from September 1st to ensure the information in it is up-to-date at the time of the \ac{AGM}.
+		
+		\item At all times, the club shall maintain a credit balance in all bank accounts.
+	\end{enumerate}
+
+	\section{Dissolution}
+	
+	\begin{enumerate}
+		\item The Club may be dissolved by a resolution passed by a two-thirds majority at a General Meeting of the Club.
+		
+		\item All assets held by the Club will be donated to a group of the Club's choice, voted on at the General Meeting where the Club is dissolved.
+	\end{enumerate}
+	
+\end{document}
