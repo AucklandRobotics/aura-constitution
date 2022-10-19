@@ -1,7 +1,4 @@
 # aura-constitution
 Auckland University Robotics Association Constitution
 
-
-Upload the latest constitution (last emended) to this repo.
-
-Idk why we have the tex version but pretty sure just the pdf is fine.
+Each amendment should be committed as a change to the .tex file and re-compiled PDF.
